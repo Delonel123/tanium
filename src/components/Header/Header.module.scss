@@ -1,0 +1,18 @@
+.header{
+    background-color: #2d2d39;
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__logo{
+        margin-right: 130px;
+    }
+    &__right{
+        margin-left: auto;
+        display: flex;
+    }
+    &__dropdown-item{
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,25 @@
+.result__list{
+    width: 100%;
+    background-color: #1c2333;
+    padding: 0 10px;
+}
+.found__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 3px solid #161e2d;
+}
+.options__butons{
+    display: flex;
+    margin-right: 20px;
+}
+.options__buton{
+    padding: 5px;
+    background-color: #3d5c81;
+    margin-left: 5px;
+    border-radius: 3px;
+    color:white;
+    font-weight: bold;
+}

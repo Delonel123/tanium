@@ -1,0 +1,20 @@
+.wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.input {
+    background: #110f1c;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    border-radius: 5px;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 8px;
+    top: 6px;
+}

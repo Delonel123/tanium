@@ -1,0 +1,41 @@
+.result__list-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #19232d;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 3px solid #161e2d;
+}
+.filter__header-tooltip {
+    width: 35px;
+    height: 35px;
+}
+.result__list-filter {
+    padding: 10px 0;
+}
+.more-filters {
+    color: #5580bd;
+    font-weight: bold;
+    position: relative;
+}
+.more-filters::before {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 13px;
+    background-image: url(../../assets/icons/input-arrow-bottom.svg);
+    background-size: contain;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -10px;
+    top: 2px;
+}
+.os {
+    margin-right: 15px;
+}
+
+.os__icons {
+    display: flex;
+    align-items: center;
+}
